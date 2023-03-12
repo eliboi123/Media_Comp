@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+        <meta name="description" content="Unreal Engine website">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Elijah Haney">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coopersburg Inn</title>
+
+
+    <link rel="icon" type="image/x-icon" href="../Photos/CoopersburgInnLogo.jpg">
+
+    <link rel="stylesheet" href="../CSS/CSS.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+</head>
+<body>
+<div Class="HeaderBox">
+<img class="LogoImg" src="../Photos/CoopersburgInnLogo.jpg" alt="The coopersburg Inn's logo.'">
+</div>
+<div class="nav" id="IDnav">
+ <a href="Home.html" >Home</a>
+  <a href="Rooms.html">Rooms</a>
+  <a href="NewsLetter.html">News Letter</a>
+    <a href="Contact.html">Contact</a>
+
+    <div class="dropdown">
+    <button class="dropbtn">Menus
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="Menu1.html">Breakfast</a>
+      <a href="Menu2.html">Lunch</a>
+      <a href="Menu3.html">Dinner</a>
+    </div>
+  </div>
+
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+  <script>function myFunction() {
+  var x = document.getElementById("IDnav");
+  if (x.className === "nav") {
+    x.className += " responsive";
+  } else {
+    x.className = "nav";
+  }
+}
+</script>
+
+</div>
+
+<div class="Box">
+<h1 id="Header">
+Rooms
+</h1>
+<p class="Room">
+We currently have one location with 15 regular rooms and 5 suites. If you want to book a night at our Inn you need to call 202-555-0126 and they will help you get a Vacation booked.
+</p>
+<p class="Room">
+The price of a Room is $140 a night but this price includes access to the rooms and all other services that we provide, including our pool, dining hall, game room, and our outdoor hiking paths.
+</p>
+<p class="Room">
+Our suites are $300 a night and they have two bedrooms with two beds in each, a kitchen two bathrooms, and access to all of the mentioned services that we provide. The suite rooms are perfect if you are going on vacation as a family and you need more than one room, or if you just want a lot of space for yourself.
+</p>
+</div>
+
+</body>
+
+</html>

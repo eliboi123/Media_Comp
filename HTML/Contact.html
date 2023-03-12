@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+        <meta name="description" content="Unreal Engine website">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Elijah Haney">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coopersburg Inn</title>
+
+ 
+    <link rel="icon" type="image/x-icon" href="../Photos/CoopersburgInnLogo.jpg">
+    
+    <link rel="stylesheet" href="../CSS/CSS.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+</head>
+<body>
+<div Class="HeaderBox">
+<img class="LogoImg" src="../Photos/CoopersburgInnLogo.jpg" alt="The coopersburg Inn's logo.'">
+</div>
+<div class="nav" id="IDnav">
+ <a href="Home.html" >Home</a>
+   <a href="Rooms.html">Rooms</a>
+  <a href="NewsLetter.html">News Letter</a>
+    <a href="Contact.html">Contact</a>
+    <div class="dropdown">
+    <button class="dropbtn">Menus
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="Menu1.html">Breakfast</a>
+      <a href="Menu2.html">Lunch</a>
+      <a href="Menu3.html">Dinner</a>
+    </div>
+  </div>
+
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+  <script>function myFunction() {
+  var x = document.getElementById("IDnav");
+  if (x.className === "nav") {
+    x.className += " responsive";
+  } else {
+    x.className = "nav";
+  }
+}
+</script>
+
+</div>
+<div class="Box">
+<h1 id="Header">
+Contact
+</h1>
+<div class="Spacer">
+</div>
+<div class="row">
+<div class="column">
+<p Class="Text1">
+Location 1: 3198 Great Road, PA
+</p>
+<div class="Spacer">
+</div>
+<p class="Text1">
+Location 2: 1487 Greater Road, PA
+</p>
+<div class="Spacer">
+</div>
+</div>
+<div class="column">
+<p class="Text1">
+Number: 123-456-7890
+</p>
+<div class="Spacer">
+</div>
+<p class="Text1">
+E-Mail: Example@gmail.com
+</p>
+</div>
+</div>
+</div>
+
+</body>
+
+</html>
